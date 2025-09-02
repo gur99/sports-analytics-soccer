@@ -1,2 +1,17 @@
 .env
 database.sqlite
+
+# Ignore raw data and databases
+data/raw/
+*.sqlite
+*.db
+
+# Ignore OS / editor junk
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
